@@ -57,14 +57,45 @@
 
         <section id="contactos">
             <h2>Contactos</h2>
-            <p>Tem um projeto em andamento, clique aqui 2</p>
+            <p>Tem um projeto em andamento, clique aqui.</p>
 
+            <form action="">
+
+                <label for="Nome">Nome:</label>
+                <input type="text" id="Nome" name="Nome" required>
+                <br>
+                <label for="Email">Email:</label>
+                <input type="email" id="Email" name="Email" required>
+
+                <br>
+                <label for="Telefone">Telefone:</label>
+                <input type="tel" id="Telefone" name="Telefone" required>
+                <br>
+                <label for="Assunto">Assunto:</label>
+                <select name="Assunto" id="Assunto">
+                    <option value="pergunta">Pergunta</option>
+                    <option value="Sugestao">Sugestão</option>
+                    <option value="Outro">Outro</option>
+                </select>
+                <br>
+                <label for="Mensages">Mensages:</label>
+                <textarea name="Mensages" id="Mensages" cols="60" rows="8"></textarea>
+
+                <br>
+                <input type="checkbox" id="Inscripçao" name="Inscrição">
+                <label for="Inscripçao">Desejo receber novidades por e-mail</label>
+<br>
+
+<input type="submit" value="Enviar">
+
+            </form>
+            <br>
             <address>
                 <p>E-mail: <a href="mailto:daniel@example.com">daniel@example.com</a></p>
                 <p>telefone: <a href="tel:+(11) 99999-9999">(11) 99999-9999</a></p>
             </address>
 
-    
+
         </section>
     </footer>
 </body>
